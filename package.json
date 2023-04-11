@@ -1,0 +1,20 @@
+{
+  "name": "19_text_editor_pwa",
+  "version": "1.0.0",
+  "description": "Project Repo: [Github-repo](https://github.com/timothymichaelcook/12_Employee_Tracker)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timothymichaelcook/19_text_editor_pwa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timothymichaelcook/19_text_editor_pwa/issues"
+  },
+  "homepage": "https://github.com/timothymichaelcook/19_text_editor_pwa#readme"
+}
