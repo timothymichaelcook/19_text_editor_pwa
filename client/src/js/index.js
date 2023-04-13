@@ -19,3 +19,14 @@ const loadSpinner = () => {
 
 const editor = new Editor();
 
+if (typeof editor === 'undefined') {
+  loadSpinner();
+}
+
+if ('serviceWorker' in navigator) {
+  const workboxSW = new Workbox('/src-sw.js');
+  workboxSW.register();
+} else {
+  console.error('Service workers are not supported in this browser.');
+}
+
