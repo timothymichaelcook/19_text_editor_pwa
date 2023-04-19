@@ -1,25 +1,28 @@
-# Employee Tracker
+# Text Editor PWA
 
-Project Repo: [Github-repo](https://github.com/timothymichaelcook/12_Employee_Tracker)
+Project Repo: [Github-repo](https://github.com/timothymichaelcook/19_text_editor_pwa)
 
 ## Description
 
-The focus of this project was to create an application interface (CMS) that allows a user to view and interact with information stored in the employees_DB. This challenge allows a company to manage an employee database through a command line interface. This database contains three tables, roles, departments, and employees with different fields depending on the table.
+The focus of this project was to create a web text editor where the user can create text based notes. The user is able to save these notes and access these notes either online or through a local application. The integrated service worker and Cache API's ensure that the application will remain fully functional even without an internet connection.
 
 ## User Story
 
 ```
-- AS A business owner
-- I WANT to be able to view and manage the departments, roles, and employees in my company
-- SO THAT I can organize and plan my business
+- AS A developer
+- I WANT to create notes or code snippets with or without an internet connection
+- SO THAT I can reliably retrieve them for later use
 ```
 
 ## Installation 
 
 Packages:
-Inquirer
-MySQL
-Console Table
+Express
+Babel
+Webpack
+CSS-loader
+IndexedDB
+If-Env
 
 Commands:
 mysql -u root -p
@@ -30,7 +33,7 @@ node index.js
 
 ## Usage
 
-Users need to import the following npm packages: inquirer, mysql, and console table. Run npm i to install these packages. Users need to enter the database and source the schema and seeds files. Once seeded, the user needs to be in the root directory of the project and run node index.js to start the application. There are a different choices that let you read, create and update data in the database. Some of the options let you view the data in the database, other options let you update or create elements in the database and last option 'Quit' exits the terminal application.
+Users need to import the following npm packages: express, mysql, and console table. Run npm i to install these packages. Users need to enter the database and source the schema and seeds files. Once seeded, the user needs to be in the root directory of the project and run node index.js to start the application. There are a different choices that let you read, create and update data in the database. Some of the options let you view the data in the database, other options let you update or create elements in the database and last option 'Quit' exits the terminal application.
 
 ## Credits
 
@@ -42,7 +45,7 @@ MIT License
 
 ## Screenshots REDO
 
-![Project Video](./assets/video_1.gif)
+![Project Screenshot](./assets/placeholder.png)
 
 ## Contact
 
